@@ -65,9 +65,9 @@ const App = () => {
 						<h2 className="text-lg lg:text-xl font-bold mb-6 lg:mb-8 text-[hsl(224,30%,27%)]">
 							Summary
 						</h2>
-						<div className="space-y-4 lg:space-y-5">
+						<ul className="space-y-4 lg:space-y-5">
 							{summaryItems.map((item, index) => (
-								<div
+								<li
 									key={index}
 									className={`flex items-center justify-between p-4 rounded-xl ${
 										item.color === "text-light-red"
@@ -100,9 +100,9 @@ const App = () => {
 										<span>{item.score}</span>
 										<span className="text-gray-400"> / 100</span>
 									</div>
-								</div>
+								</li>
 							))}
-						</div>
+						</ul>
 						<button className="w-full bg-[hsl(224,30%,27%)] hover:bg-gradient-to-b hover:from-[hsl(252,100%,67%)] hover:to-[hsl(241,81%,54%)] text-white rounded-full py-3 lg:py-4 mt-8 font-bold">
 							Continue
 						</button>
