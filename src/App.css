@@ -1,16 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family: HankenGrotesk;
   src: url(/fonts/HankenGrotesk-VariableFont_wght.ttf) format('truetype');
   font-display: swap;
 }
 
-html, body,
-#root, #root > div {
-    height: 100dvh;
-    font-family: HankenGrotesk;
-    
-  }
-  
+html,
+body,
+#root,
+#root>div {
+  height: 100dvh;
+  font-family: HankenGrotesk;
+
+}
+
+body {
+  background-color: hsl(241 77.34% 86.75%);
+}

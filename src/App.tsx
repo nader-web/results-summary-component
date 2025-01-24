@@ -43,30 +43,30 @@ const App = () => {
 	return (
 		<>
 			<div className="w-full min-h-screen flex items-start lg:items-center lg:mt-0 justify-center p-0 lg:p-4">
-				<div className="w-full max-w-[375px] lg:max-w-[736px] flex flex-col lg:flex-row shadow-lg rounded-none lg:rounded-3xl">
+				<div className="w-full  max-w-[375px] lg:max-w-[736px] flex flex-col lg:flex-row bg-white shadow-lg rounded-b-3xl  lg:rounded-3xl">
 					<div className="result bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] p-6 lg:p-8 rounded-b-3xl lg:rounded-3xl text-center flex-1">
-						<p className="text-[18px] mb-4 lg:mb-6 text-[hsl(241,100%,89%)] font-medium">
+						<p className="text-[19px] mb-4 lg:mb-6 text-[hsl(241,100%,89%)] font-medium">
 							Your Result
 						</p>
 						<div className="score-circle bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] mx-auto rounded-full w-28 h-28 lg:w-36 lg:h-36 flex flex-col justify-center items-center">
-							<span className="text-4xl lg:text-5xl font-extrabold text-white">
+							<span className="text-5xl lg:text-6xl font-extrabold text-white">
 								76
 							</span>
-							<span className="text-sm lg:text-base text-[hsl(241,100%,89%,.5)] font-medium">
+							<span className="text-base lg:text-lg text-[hsl(241,100%,89%,.5)] font-medium">
 								of 100
 							</span>
 						</div>
-						<h2 className="text-xl lg:text-2xl mt-4 lg:mt-6 mb-2 lg:mb-3 text-white font-bold">
+						<h2 className="text-2xl lg:text-3xl mt-4 lg:mt-6 mb-2 lg:mb-3 text-white font-bold">
 							Great
 						</h2>
-						<p className="text-[15px] lg:text-[17px] text-[hsl(241,100%,89%)] font-medium max-w-[260px] mx-auto">
+						<p className="text-[16px] lg:text-[18px] text-[hsl(241,100%,89%)] font-medium max-w-[260px] mx-auto">
 							You scored higher than 65% of the people who have taken these
 							tests.
 						</p>
 					</div>
 
 					<div className="summary flex-1 p-6 lg:p-8 bg-white rounded-3xl">
-						<h3 className="text-lg lg:text-xl font-bold mb-4 lg:mb-6 text-[hsl(224,30%,27%)]">
+						<h3 className="text-xl lg:text-2xl font-bold mb-4 lg:mb-6 text-[hsl(224,30%,27%)]">
 							Summary
 						</h3>
 						<div className="space-y-3 lg:space-y-4">
