@@ -6,25 +6,25 @@ const App = () => {
 			category: "Reaction", 
 			score: 80, 
 			color: "text-light-red", 
-			icon: <img src="../public/images/icon-reaction.svg" alt="reaction" className="w-5 h-5" />
+			icon: <img src="/images/icon-reaction.svg" alt="reaction" className="w-5 h-5" />
 		},
 		{ 
 			category: "Memory", 
 			score: 92, 
 			color: "text-orangey-yellow", 
-			icon: <img src="../public/images/icon-memory.svg" alt="memory" className="w-5 h-5" />
+			icon: <img src="/images/icon-memory.svg" alt="memory" className="w-5 h-5" />
 		},
 		{ 
 			category: "Verbal", 
 			score: 61, 
 			color: "text-green-teal", 
-			icon: <img src="../public/images/icon-verbal.svg" alt="verbal" className="w-5 h-5" />
+			icon: <img src="/images/icon-verbal.svg" alt="verbal" className="w-5 h-5" />
 		},
 		{ 
 			category: "Visual", 
 			score: 72, 
 			color: "text-cobalt-blue", 
-			icon: <img src="../public/images/icon-visual.svg" alt="visual" className="w-5 h-5" />
+			icon: <img src="/images/icon-visual.svg" alt="visual" className="w-5 h-5" />
 		},
 	];
 
